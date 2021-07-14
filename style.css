@@ -3,7 +3,6 @@
 
 header {
     font-family: 'Poppins', sans-serif;
-
 }
 
 body {
@@ -35,7 +34,6 @@ main {
     margin-left: 156px;
     margin-top: 207px;
     margin-bottom: 240px;
-
 }
 
 button {
@@ -45,7 +43,6 @@ button {
     background-color: #E02C6D;
     margin-top: 0px;
     padding: 10px 24px;
-
     margin-bottom: 100px;
 }
 
@@ -67,7 +64,6 @@ button {
 .nav-part-two img:hover {
     transform: rotate(360deg);
     transition: transform 3s;
-
 }
 
 /* main part */
@@ -90,7 +86,6 @@ button {
     height: 474px;
     background: #FFFFFF;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
-
 }
 
 .player img {
@@ -124,16 +119,17 @@ button {
 .highlights {
     width: 300px;
     height: 200px;
-
     margin-left: 182px;
     margin-top: 100px;
 }
 
-.highlights span {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 2px;
+.best-highlights p {
+    font-size: 15px;
+}
+
+.best-highlights button {
+    margin-left: 0px;
+    margin-top: 40px;
 }
 
 .highlights-image img {
@@ -172,7 +168,6 @@ button {
     margin-left: 300px;
     border: 2px solid gray;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
-
 }
 
 .sponsor h3 {
@@ -180,7 +175,6 @@ button {
     justify-content: center;
     justify-items: center;
     margin-left: 380px;
-
 }
 
 .sponsors button {
@@ -193,7 +187,6 @@ button {
     width: 483.87px;
     height: 213px;
     margin-left: 475px;
-
 }
 
 .footer-container img {
@@ -222,22 +215,23 @@ button {
 
 /* media query */
 @media only screen and (max-width:688px) {
-    .nav-container {
+    /* .container {
+        overflow: hidden;
+    } */
 
+    .nav-container {
         width: 360px;
         height: 695px;
         display: block;
         margin-top: 0px;
-
+        overflow: hidden;
     }
-
-
 
     .nav-partone h1 {
         width: 278px;
         height: 138px;
+        margin-top: 100px;
         margin-left: 16px;
-        padding-top: 30px;
         color: #FFFFFF;
         font-size: 36px;
         margin-bottom: 30px;
@@ -247,9 +241,7 @@ button {
         width: 168px;
         height: 44px;
         margin-top: 20px;
-        margin-left: 19px;
-
-
+        margin-left: 14px;
     }
 
     .nav-part-two {
@@ -259,15 +251,11 @@ button {
         margin-right: 16px;
         width: 329px;
         height: 259.17px;
-
-
     }
 
     .nav-part-two img {
         width: 329px;
         height: 259.17px;
-
-
     }
 
     .players-container {
@@ -283,9 +271,12 @@ button {
     .highlights {
         width: 100%;
         height: 200px;
-
-        margin-left: 0px;
+        margin-left: 10px;
         margin-top: 0px;
+    }
+
+    .highlights-image img {
+        margin-left: 1px;
     }
 
     .best-goals {
@@ -315,9 +306,7 @@ button {
     }
 
     .sponsor h3 {
-
         margin-left: 0px;
-
     }
 
     .sponsors button {
@@ -341,8 +330,6 @@ button {
     .social-icon {
         width: 100%;
         height: 32px;
-
-
         margin-top: 20px;
         margin-bottom: 20px;
         margin-right: 10px;
