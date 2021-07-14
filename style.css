@@ -43,7 +43,7 @@ main {
     margin-block-end: 102px;
 }
 
-span {
+button {
     width: 168px;
     height: 44px;
     margin-left: 156px;
@@ -53,7 +53,7 @@ span {
     margin-bottom: 169px;
 }
 
-.nav-partone span:hover {
+.nav-partone button:hover {
     background-color: gray;
 }
 
@@ -76,6 +76,10 @@ span {
 
 /* main part */
 /* photo gallery */
+.container {
+    margin-top: 70px;
+}
+
 .players-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -122,7 +126,7 @@ span {
 }
 
 .highlights {
-    width: 300px;
+    /* width: 300px; */
     height: 200px;
 
     margin-left: 182px;
@@ -141,6 +145,7 @@ span {
     height: 427px;
     margin-left: 69px;
     margin-top: 80px;
+    margin-right: 210px;
 }
 
 /* best goals
@@ -160,6 +165,28 @@ span {
 .top-scorer-list {
     margin-top: 160px;
     margin-left: 30px;
+}
+
+/* sponsors */
+.sponsors {
+    width: 900px;
+    height: 213px;
+    margin-left: 300px;
+    border: 2px solid gray;
+
+}
+
+.sponsor h3 {
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    margin-left: 380px;
+
+}
+
+.sponsors button {
+    margin-left: 50px;
+    border-radius: 20px;
 }
 
 /* footer */
