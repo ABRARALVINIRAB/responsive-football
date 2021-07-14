@@ -14,19 +14,13 @@ main {
     display: flex;
     justify-content: center;
     flex-direction: column;
-
-
-
 }
-
-
 
 /* nav-section */
 .nav-container {
     width: 1440px;
     height: 677px;
     background-color: #2D25A0;
-
     top: 0px;
     display: flex;
 }
@@ -41,17 +35,18 @@ main {
     margin-left: 156px;
     margin-top: 207px;
     margin-bottom: 240px;
-    margin-block-end: 102px;
+
 }
 
 button {
     width: 168px;
     height: 44px;
-    margin-left: 156px;
+    margin-left: 15px;
     background-color: #E02C6D;
-    margin-top: 27px;
+    margin-top: 0px;
     padding: 10px 24px;
-    margin-bottom: 169px;
+
+    margin-bottom: 100px;
 }
 
 .nav-partone button:hover {
@@ -127,7 +122,7 @@ button {
 }
 
 .highlights {
-    /* width: 300px; */
+    width: 300px;
     height: 200px;
 
     margin-left: 182px;
@@ -155,7 +150,6 @@ button {
     width: auto;
     height: 500px;
     display: flex;
-
 }
 
 .goals {
@@ -199,7 +193,7 @@ button {
     width: 483.87px;
     height: 213px;
     margin-left: 475px;
-    border: 2px solid gray;
+
 }
 
 .footer-container img {
@@ -213,6 +207,7 @@ button {
     right: 156.94px;
     margin-left: 156px;
     margin-top: 20px;
+    margin-bottom: 20px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-row-gap: 14px;
@@ -223,6 +218,137 @@ button {
     width: 236px;
     height: 31px;
     margin-left: 123px;
+}
+
+/* media query */
+@media only screen and (max-width:688px) {
+    .nav-container {
+
+        width: 360px;
+        height: 695px;
+        display: block;
+        margin-top: 0px;
+
+    }
 
 
+
+    .nav-partone h1 {
+        width: 278px;
+        height: 138px;
+        margin-left: 16px;
+        padding-top: 30px;
+        color: #FFFFFF;
+        font-size: 36px;
+        margin-bottom: 30px;
+    }
+
+    .nav-partone button {
+        width: 168px;
+        height: 44px;
+        margin-top: 20px;
+        margin-left: 19px;
+
+
+    }
+
+    .nav-part-two {
+        margin-top: 200px;
+        margin-left: 15px;
+        margin-bottom: 70px;
+        margin-right: 16px;
+        width: 329px;
+        height: 259.17px;
+
+
+    }
+
+    .nav-part-two img {
+        width: 329px;
+        height: 259.17px;
+
+
+    }
+
+    .players-container {
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 15px;
+    }
+
+    .best-highlights {
+        display: block;
+        margin-left: 0px;
+    }
+
+    .highlights {
+        width: 100%;
+        height: 200px;
+
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+
+    .best-goals {
+        width: 100%;
+        height: 500px;
+        display: block;
+    }
+
+    .goals {
+        margin-top: 60px;
+        margin-left: 15px;
+    }
+
+    .top-scorer-list {
+        margin-left: 15px;
+    }
+
+    .sponsors {
+        width: 100%;
+        height: 213px;
+        margin-left: 15px;
+        border: none;
+        margin-top: 300px;
+        box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+        margin-bottom: 200px;
+
+    }
+
+    .sponsor h3 {
+
+        margin-left: 0px;
+
+    }
+
+    .sponsors button {
+        margin-left: 0px;
+        border-radius: 20px;
+    }
+
+    .footer-container {
+        width: 100%;
+        height: 213px;
+        margin-left: 0px;
+
+    }
+
+    .footer-container img {
+        width: 100%;
+        height: 110px;
+        margin-right: 10px;
+    }
+
+    .social-icon {
+        width: 100%;
+        height: 32px;
+
+
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-right: 10px;
+        display: grid;
+        grid-template-columns: repeat(4, 50px);
+        grid-row-gap: 0px;
+        align-items: center;
+    }
 }
